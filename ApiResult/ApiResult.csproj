@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard1.0</TargetFramework>
+    <Description>This package contains the models to wrapping response data and/or errors in a single result in ASP.NET Web API.</Description>
+    <Authors>Rafael Viegas</Authors>
+    <Company />
+    <Product />
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <PackageId>Api.Result</PackageId>
+    <Version>2.0.2</Version>
+  </PropertyGroup>
+
+</Project>
