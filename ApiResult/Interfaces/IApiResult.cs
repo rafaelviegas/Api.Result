@@ -1,6 +1,6 @@
 ﻿
 
-namespace ApiResult
+namespace ApiResult.Interfaces
 {
     public interface IApiResult<TResult>
     {
@@ -8,4 +8,11 @@ namespace ApiResult
          string Message { get; }
          TResult Data { get; }
     }
+    public interface IApiResult
+    {
+        IApiResult<TResult> Sucess<TResult>(TResult source, string message = null);
+        IApiResult<TResult> Error<TResult>(TResult source, string message = null);
+        IApiResult<TResult> From<TResult>(TResult source);
+    }
+
 }
