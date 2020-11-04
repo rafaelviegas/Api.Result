@@ -1,4 +1,4 @@
-﻿
+﻿using ApiResult.Interfaces;
 using Newtonsoft.Json;
 
 namespace ApiResult

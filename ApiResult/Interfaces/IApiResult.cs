@@ -1,6 +1,6 @@
 ﻿
 
-namespace ApiResult
+namespace ApiResult.Interfaces
 {
     public interface IApiResult<TResult>
     {

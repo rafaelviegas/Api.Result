@@ -1,4 +1,5 @@
-﻿using ApiResult.Builders.ApiResult.Builders;
+﻿using ApiResult.Builders;
+using ApiResult.Interfaces;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace ApiResult.Extensions
